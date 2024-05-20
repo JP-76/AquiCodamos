@@ -5,7 +5,9 @@ def add():
     a = int(input("Digite o primeiro número: ")) # Código para receber um número do usuário
     b = int(input("Digite o segundo número: "))
 
-    print(f"Resultado: {a + b}")
+    resultado = a + b # Código para somar os dois números
+
+    print(f"Resultado: {resultado}")
 
 
 
@@ -14,7 +16,9 @@ def sub():
     a = int(input("Digite o primeiro número: "))
     b = int(input("Digite o segundo número: "))
 
-    print(f"Resultado: {a - b}")
+    resultado = a - b # Código para subtrair os dois números
+
+    print(f"Resultado: {resultado}")
 
 
 
@@ -23,7 +27,9 @@ def mult():
     a = int(input("Digite o primeiro número: "))
     b = int(input("Digite o segundo número: "))
 
-    print(f"Resultado: {a * b}")
+    resultado = a * b # Código para multiplicar os dois números
+
+    print(f"Resultado: {resultado}")
 
 
 
@@ -36,7 +42,9 @@ def div():
         print("Divisão por zero")
 
     else:
-        print(f"Resultado: {a / b}")
+        resultado = a / b # Código para dividir os dois números
+
+        print(f"Resultado: {resultado}")
 
 
 
